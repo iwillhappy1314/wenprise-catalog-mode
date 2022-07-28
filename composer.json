@@ -1,0 +1,26 @@
+{
+  "name": "wenprise/catalog-mode",
+  "description": "Enable WooCommerce Catalog mode",
+  "require": {
+    "php": ">=5.6",
+    "wenprise/wordpress-cleaner": "^0.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WenpriseCatalog\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amos Lee",
+      "email": "iwillhappy1314@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}

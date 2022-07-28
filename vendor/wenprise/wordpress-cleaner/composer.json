@@ -1,0 +1,15 @@
+{
+  "name": "wenprise/wordpress-cleaner",
+  "description": "WordPress admin ui cleaner.",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Wenprise\\": "src/"
+    },
+    "files": [
+    ]
+  }
+}

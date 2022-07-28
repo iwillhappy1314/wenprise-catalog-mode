@@ -1,0 +1,41 @@
+{
+    "packages": [
+        {
+            "name": "wenprise/wordpress-cleaner",
+            "version": "0.2",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iwillhappy1314/wordpress-cleaner.git",
+                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iwillhappy1314/wordpress-cleaner/zipball/69097b47ab8bf3c41177182a029fe33c256dc424",
+                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424",
+                "shasum": ""
+            },
+            "time": "2021-06-08T09:56:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "Wenprise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WordPress admin ui cleaner.",
+            "support": {
+                "issues": "https://github.com/iwillhappy1314/wordpress-cleaner/issues",
+                "source": "https://github.com/iwillhappy1314/wordpress-cleaner/tree/0.2"
+            },
+            "install-path": "../wenprise/wordpress-cleaner"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

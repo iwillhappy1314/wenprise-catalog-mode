@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6945292c08555a7e555e10a475615c83",
+    "packages": [
+        {
+            "name": "wenprise/wordpress-cleaner",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iwillhappy1314/wordpress-cleaner.git",
+                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iwillhappy1314/wordpress-cleaner/zipball/69097b47ab8bf3c41177182a029fe33c256dc424",
+                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "Wenprise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "WordPress admin ui cleaner.",
+            "support": {
+                "issues": "https://github.com/iwillhappy1314/wordpress-cleaner/issues",
+                "source": "https://github.com/iwillhappy1314/wordpress-cleaner/tree/0.2"
+            },
+            "time": "2021-06-08T09:56:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
