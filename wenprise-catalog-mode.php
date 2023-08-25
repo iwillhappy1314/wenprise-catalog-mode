@@ -3,7 +3,7 @@
   Plugin name: WooCommerce Catalog Mode
   Plugin URI: https://www.wpzhiku.com
   Description: Enable WooCommerce Catalog mode
-  Version: 1.0
+  Version: 1.0.1
   Author: iwillhappy1314
   Author URI: https://www.wpzhiku.com
   License: GNU General Public License
