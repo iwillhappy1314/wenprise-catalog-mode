@@ -15,6 +15,7 @@ if ( ! defined('WPINC')) {
     die;
 }
 
+const WENPRISE_CATALOG_MAIN_FILE = __FILE__;
 define('WENPRISE_CATALOG_PATH', plugin_dir_path(__FILE__));
 
 add_action('plugins_loaded', function ()

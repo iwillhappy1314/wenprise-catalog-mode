@@ -2,6 +2,8 @@
 
 namespace WenpriseCatalog;
 
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
 class Init
 {
     public function __construct()
@@ -10,6 +12,8 @@ class Init
         add_action('init', [$this, 'remove_add_to_cart']);
         add_action('template_redirect', [$this, 'disable_cart_access']);
         add_action('template_redirect', [$this, 'disable_checkout_access']);
+
+        $this->setUpdateChecker();
     }
 
     // Remove prices from front end
@@ -86,5 +90,15 @@ class Init
             wp_redirect(get_home_url());
             exit;
         }
+    }
+
+
+    public function setUpdateChecker()
+    {
+        $update_checker = PucFactory::buildUpdateChecker(
+            'https://api.wpcio.com/api/plugin/info/wenprise-catalog-mode',
+            WENPRISE_CATALOG_MAIN_FILE,
+            '_b'
+        );
     }
 }

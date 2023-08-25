@@ -3,7 +3,8 @@
   "description": "Enable WooCommerce Catalog mode",
   "require": {
     "php": ">=5.6",
-    "wenprise/wordpress-cleaner": "^0.2.0"
+    "wenprise/wordpress-cleaner": "^0.2.0",
+    "yahnis-elsts/plugin-update-checker": "^5.2"
   },
   "autoload": {
     "psr-4": {
