@@ -2,20 +2,20 @@
     "packages": [
         {
             "name": "wenprise/wordpress-cleaner",
-            "version": "0.2",
-            "version_normalized": "0.2.0.0",
+            "version": "0.4",
+            "version_normalized": "0.4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iwillhappy1314/wordpress-cleaner.git",
-                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424"
+                "reference": "ebb7963e23213019da0c8188cb602d7f15848272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iwillhappy1314/wordpress-cleaner/zipball/69097b47ab8bf3c41177182a029fe33c256dc424",
-                "reference": "69097b47ab8bf3c41177182a029fe33c256dc424",
+                "url": "https://api.github.com/repos/iwillhappy1314/wordpress-cleaner/zipball/ebb7963e23213019da0c8188cb602d7f15848272",
+                "reference": "ebb7963e23213019da0c8188cb602d7f15848272",
                 "shasum": ""
             },
-            "time": "2021-06-08T09:56:20+00:00",
+            "time": "2023-12-07T01:31:07+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -31,35 +31,35 @@
             "description": "WordPress admin ui cleaner.",
             "support": {
                 "issues": "https://github.com/iwillhappy1314/wordpress-cleaner/issues",
-                "source": "https://github.com/iwillhappy1314/wordpress-cleaner/tree/0.2"
+                "source": "https://github.com/iwillhappy1314/wordpress-cleaner/tree/0.4"
             },
             "install-path": "../wenprise/wordpress-cleaner"
         },
         {
             "name": "yahnis-elsts/plugin-update-checker",
-            "version": "v5.2",
-            "version_normalized": "5.2.0.0",
+            "version": "v5.5",
+            "version_normalized": "5.5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
-                "reference": "5a270988c5f76bfdfbbb42cccc7c9627f7dd64d0"
+                "reference": "845d65da93bcff31649ede00d9d73b1beadbb7f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/5a270988c5f76bfdfbbb42cccc7c9627f7dd64d0",
-                "reference": "5a270988c5f76bfdfbbb42cccc7c9627f7dd64d0",
+                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/845d65da93bcff31649ede00d9d73b1beadbb7f0",
+                "reference": "845d65da93bcff31649ede00d9d73b1beadbb7f0",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": ">=5.6.20"
             },
-            "time": "2023-08-17T12:44:32+00:00",
+            "time": "2024-10-16T14:25:00+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "files": [
-                    "load-v5p2.php"
+                    "load-v5p5.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -84,7 +84,7 @@
             ],
             "support": {
                 "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues",
-                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v5.2"
+                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v5.5"
             },
             "install-path": "../yahnis-elsts/plugin-update-checker"
         }

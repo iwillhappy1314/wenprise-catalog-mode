@@ -8,6 +8,9 @@
   Author URI: https://www.wpzhiku.com
   License: GNU General Public License
   Text Domain: wc-catalog-mode
+  WC requires at least: 6.5.0
+  WC tested up to: 7.0.0
+  Requires Plugins: woocommerce
 */
 
 // Die if called directly
@@ -20,6 +23,10 @@ define('WENPRISE_CATALOG_PATH', plugin_dir_path(__FILE__));
 
 add_action('plugins_loaded', function ()
 {
+    if(!class_exists('WC_Checkout')){
+        return;
+    }
+
     require_once(WENPRISE_CATALOG_PATH . 'vendor/autoload.php');
 
     new WenpriseCatalog\Init();

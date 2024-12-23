@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: WordPress Admin Menu Manager by Wenprise
-Description: Filter data by metadata in wordpress admin post/data list page.
+Plugin Name: WordPress Cleaner
+Description: Clear Useless WordPress Element
 Author: iwillhappy1314
 Version: 0.0.1
 Author URI: https://wpzhiku.com
