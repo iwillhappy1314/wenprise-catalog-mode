@@ -12,9 +12,21 @@ class Init
         add_action('init', [$this, 'remove_add_to_cart']);
         add_action('template_redirect', [$this, 'disable_cart_access']);
         add_action('template_redirect', [$this, 'disable_checkout_access']);
+        add_filter('woocommerce_admin_features', [$this, 'disable_admin_features']);
+
+
+        add_action('admin_menu', [$this, 'remove_payments_menu'], 999);
 
         $this->setUpdateChecker();
     }
+
+
+    function remove_payments_menu()
+    {
+        remove_menu_page('admin.php?page=wc-admin&task=payments');
+        remove_menu_page('admin.php?page=wc-settings&tab=checkout');
+    }
+
 
     // Remove prices from front end
     public function remove_frontend_prices($price): string
@@ -73,6 +85,19 @@ class Init
 
 
     }
+
+
+    public function disable_admin_features($features)
+    {
+        $analytics = array_search('analytics', $features);
+        unset($features[ $analytics ]);
+
+        $marketing = array_search('marketing', $features);
+        unset($features[ $marketing ]);
+
+        return $features;
+    }
+
 
     // If user tries to access cart page, redirect to home
     public function disable_cart_access()
