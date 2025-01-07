@@ -29,5 +29,6 @@ add_action('plugins_loaded', function ()
 
     require_once(WENPRISE_CATALOG_PATH . 'vendor/autoload.php');
 
+    new WenpriseCatalog\Settings();
     new WenpriseCatalog\Init();
 });
