@@ -32,3 +32,9 @@ add_action('plugins_loaded', function ()
     new WenpriseCatalog\Settings();
     new WenpriseCatalog\Init();
 });
+
+add_action( 'before_woocommerce_init', function () {
+    if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', WENPRISE_CATALOG_PATH );
+    }
+} );
